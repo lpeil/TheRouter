@@ -1,0 +1,22 @@
+{
+  "name": "lpeil/therouter",
+  "description": "A simple php router",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luan Peil",
+      "email": "luan@peil.dev"
+    },
+    {
+      "name": "Felipe 'Damassa' Damasceno"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "PeilRouter\\": "src"
+    }
+  }
+}
